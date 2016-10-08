@@ -1,0 +1,380 @@
+.header {
+    height: 24px;
+    border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #AAAAAA;
+    line-height: 24px;
+}
+.header .w{
+    position: relative;
+
+}
+.headerul li {
+    float: left;
+    margin-left: 34px;
+}
+
+.header li .msg {
+    display: inline-block;
+    width: 12px;
+    height: 11px;
+    background: url("../images/spr_com.png") no-repeat;
+}
+.logoo{
+    background: url("../images/bg_header.png");
+}
+.logo {
+    height: 90px;
+
+}
+
+.search {
+    margin: 15px 0;
+}
+
+#btn {
+    background: #FD7342;
+    width: 63px;
+    height: 37px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.textdv {
+    border: 2px solid #FD7342;
+    border-right: none;
+    line-height: 34px;
+    margin-bottom: 10px;
+    background: #fff;
+
+}
+
+.textdv select {
+    display: inline-block;
+    font-size: 14px;
+    list-style: none;
+    border: none;
+
+}
+
+.textdv input {
+    padding-left: 10px;
+    width: 220px;
+    display: inline;
+    border-left: 1px solid #666;
+}
+
+.search a {
+    padding-right: 10px;
+
+}
+
+.nav {
+    width: 100%;
+    height: 47px;
+    background: #071C31;
+    line-height: 47px;
+    font-size: 16px;
+    z-index: 1;
+
+}
+
+.nav a {
+    color: #fff;
+
+    padding: 0 28px;
+}
+
+.navs li {
+    float: left;
+    background: #071C31;
+    position: relative;
+    /*background: url("../images/spr_index_1.png") no-repeat -103px -115px;*/
+}
+.nav li:hover{
+    float: left;
+    background: #071C31;
+    position: relative;
+    background: url("../images/spr_index_1.png") no-repeat -103px -115px;
+}
+.homepage {
+    background: rgba(225, 229, 209, 0.2);
+    position: relative;
+}
+
+.homepage1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #FD7342;
+}
+
+.hot {
+    width: 30px;
+    height: 16px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    background: url("../images/spr_index.png") no-repeat -87px -192px;
+}
+
+.background {
+    height: 524px;
+    background: url("../images/1470420535959.jpg") no-repeat center ;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+
+}
+
+.background .bg-1 {
+    position: relative;
+}
+
+.bg-1 .regist {
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    width: 83px;
+    height: 38px;
+    border: 1px solid #D1D1D1;
+    color: #AA9C91;
+    background: #F8F8F8;
+}
+
+.bg-1 .arr {
+    width: 935px;
+    height: 330px;
+    float: left;
+    /*background: yellow;*/
+    position: relative;
+}
+
+.arr .ileft {
+    position: absolute;
+    display: none;
+    top: 92px;
+    width: 40px;
+    height: 80px;
+    background: url("../images/spr_24.png") no-repeat 0px -254px;
+}
+
+.arr .iright {
+    position: absolute;
+    right: 0;
+    display: none;
+    top: 92px;
+    width: 40px;
+    height: 80px;
+    background: url("../images/spr_24.png") no-repeat -40px -254px;
+}
+
+.table {
+    width: 250px;
+    padding: 10px 0;
+    height: 247px;
+    border: 1px solid #D1D1D1;
+    position: absolute;
+    right: 0;
+    top: 39px;
+    padding-left: 10px;
+    background: url("../images/userboxbg.png") no-repeat;
+}
+.table .table-con{
+    background: url("../images/lg_spr.png") no-repeat;
+    height: 200px;
+}
+.table .table-con li {
+    float: left;
+    margin: 0px 5px 10px 5px;
+}
+
+.ttmore {
+    width: 482px;
+    height: 372px;
+    background: url("../images/bg_main.png") no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 24px;
+    z-index: 1;
+    border: 6px solid #D5D5D5;
+    /*padding: 5px;*/
+    display: none;
+}
+
+.ttmore h2 {
+    line-height: 33px;
+    font-size: 14px;
+    color: #ff7244;
+    width: 119px;
+    text-align: center;
+}
+
+.ttmore .tt {
+    background: #fff;
+    border: 1px solid #D5D5D5;
+    border-bottom: none;
+    height: 230px;
+}
+
+.ttmore .tt2 {
+    margin-left: -1px;
+}
+
+.ttmore h2 a {
+    color: #ff7244;
+}
+
+.ttmore .tt li {
+    line-height: 27px;
+    font-size: 12px;
+    border: 1px solid #D5D5D5;
+    margin: 0 -1px;
+    padding-left: 8px;
+}
+
+.circleUi {
+    position: absolute;
+    bottom: 16px;
+    right: 60px;
+}
+.circleUi .active{
+    width: 40px;
+    height: 15px;
+    background: #fff;
+    border-radius: 7px;
+    background: red;
+
+}
+
+.circleUi li {
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: red;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.kaifu{
+
+    height: 203px;
+    background: url("../images/open.png") no-repeat ;
+}
+.kaifu h1{
+    line-height: 42px;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.kaifu .left{
+    width: 1000px;
+    position: relative;
+    background: #0099cc;
+}
+.kaifu .time{
+    width: 104px;
+    height: 34px;
+    background: url("../images/spr_openserver.png") no-repeat -104px 0px;
+    text-align: center;
+    color: #fff;
+    line-height: 24px;
+    position: absolute;
+    left: 50%;
+    margin-left: -52px;
+
+}
+.kaifu .time i{
+    width: 22px;
+    height: 27px;
+    background:  url("../images/spr_openserver.png") no-repeat 0 -55px;
+    position: absolute;
+    left: 50%;
+    top: 33px;
+    margin-left: -11px;
+}
+.kaifu .line
+{
+    height: 3px;
+    width: 905px;
+    background: #FD7342;
+    position: absolute;
+    left: 36px;
+    top: 50px;
+    overflow: hidden;
+
+
+}
+.kaifu .arr{
+    width: 980px;
+    position: relative;
+
+    padding: 5px 10px;
+}
+.kaifu .ff{
+    float: left;
+    width: 33px;
+    height: 71px;
+    margin-top: 40px;
+    background: url("../images/spr_24.png") no-repeat 0 -335px;
+}
+.kaifu .rr{
+    float: right;
+    width: 33px;
+    height: 71px;
+    margin-top: 40px;
+    background: url("../images/spr_24.png") no-repeat -34px -335px;
+}
+.kaifu .center{
+    width: 917px;
+    padding: 0 5px;
+
+    position: relative;
+}
+.kaifu .waiceng
+{   width: 900px;
+    height: 89px;
+
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    overflow: hidden;
+}
+.kaifu .ulAll{
+    width: 2800px;
+    position: absolute;
+
+    font-size: 12px;
+
+}
+.content .ul0{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px dashed #D1D1D1;
+    float: left;
+}
+.content li{
+    width: 149px;
+}
+.content span{
+    line-height: 30px;
+}
+.content .span2{
+
+    float: right;
+}
+.hott{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url("../images/spr_com.png") no-repeat -23px 0;
+}
+.hott2{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url("../images/spr_com.png") no-repeat -34px 0;
+}
